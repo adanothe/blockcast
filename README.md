@@ -1,6 +1,11 @@
 
 # 🚀 Blockcast BEACON Node Setup Guide
 
+## 📚 Resources
+
+* 🔗 [Official Guide](https://docs.blockcast.network/main/getting-started/how-do-i-participate-in-the-network/beacon/start-running-your-beacon-today)
+* 💬 Join [Adanode Telegram Channel](https://t.me/adanode)
+
 ---
 
 ## ✅ Prerequisites
@@ -20,7 +25,7 @@ curl --proto '=https' --tlsv1.2 -sSfL https://raw.githubusercontent.com/Dedenwrg
 
 ---
 
-## 📝 Register Your Node
+## 📝 Register
 
 1. **[Register here](https://app.blockcast.network?referral-code=IEMPcM)** on Blockcast Dashboard.
 2. Go to your profile and:
@@ -43,7 +48,7 @@ docker compose up -d
 
 ---
 
-## 🌍 Set Your Location
+## 🌍 Get Your Server Location
 
 Get your location:
 
@@ -53,7 +58,7 @@ curl -s https://ipinfo.io | jq '.city, .region, .country, .loc'
 
 ---
 
-## 🔐 Register via Terminal
+## 🔐 Register Your nodes
 
 Generate hardware and challenge key:
 
@@ -77,8 +82,3 @@ docker compose exec blockcastd blockcastd init
 Wait a few minutes. Your node will show **Online** on the Dashboard.
 
 ---
-
-## 📚 Resources
-
-* 🔗 [Official Guide](https://docs.blockcast.network/main/getting-started/how-do-i-participate-in-the-network/beacon/start-running-your-beacon-today)
-* 💬 Join [Adanode Telegram Channel](https://t.me/adanode)
